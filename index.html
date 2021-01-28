@@ -15,84 +15,82 @@
             <h1 id="title">Send us a feedback!</h1>
             <p id="description">We value your feedback. Receiving a feedback from you is an opportunity to improve and enhance our future services.</p>
         </header>
-        <!-- <div id="container"> -->
-            <form id="survey-form" action="/">
-                <div class="form-field">
-                    <label for="name" id="name-label">Name</label>
-                    <input type="text" name="name" id="name" placeholder="Enter your name" required>
-                </div>
-                <div class="form-field">
-                    <label for="email" id="email-label">Email</label>
-                    <input type="email" name="email" id="email" placeholder="Enter your E-mail address" required>
-                </div>
-                <div class="form-field">
-                    <label for="age" id="age-label">Age <span>(optional)</span></label>
-                    <input type="number" name="age" id="age" min="5" max="99" placeholder="Age">
-                </div>
-                <div class="form-field">
-                    <label for="number" id="number-label">Mobile Number <span>(optional)</span></label>
-                    <input type="tel" name="number" id="number" pattern="9\d{9}" placeholder="Last 10-digits of your mobile number. (Ex. 9012345678)">
-                </div>
-                <div class="form-field">
-                    <label for="tel-number" id="number-label-tel">Telephone Number <span>(optional)</span></label>
-                    <input type="tel" name="tel-number" id="tel-number" pattern="\d{8,10}" placeholder="Telephone number. (Ex. 0821234567)">
-                </div>
-                <div class="form-field">
-                    <label for="dropdown">Occupation</label>
-                    <select name="occupation" id="dropdown" required>
-                        <option disabled selected value>Select your current occupation</option>
-                        <option value="student">Student</option>
-                        <option value="employed">Employed</option>
-                        <option value="unemployed">Unemployed</option>
-                        <option value="preferNo">Prefer not to say</option>
-                        <option value="other">Other</option>
-                    </select>
-                </div>
-                <div class="form-field">
-                    <p>Would you recommend our cakes to a friend?</p>
-                    <label for="absolutely">
-                        <input type="radio" id="absolutely" name="user-recommend" value="absolutely" checked>Absolutely
-                    </label>
-                    <label>
-                        <input type="radio" name="user-recommend" value="maybe">Maybe
-                    </label>
-                    <label>
-                        <input type="radio" name="user-recommend" value="not-sure">Not sure
-                    </label>
-                    <label>
-                        <input type="radio" name="user-recommend" value="nope">Nope
-                    </label>
-                </div>
-                <div class="form-field">
-                    <p>When do you buy cakes? <span>(Check all that apply)</span></p>
-                    <label>
-                        <input type="checkbox" name="prefer" value="bdays">Birthdays
-                    </label>
-                    <label>
-                        <input type="checkbox" name="prefer" value="parties">Parties
-                    </label>
-                    <label>
-                        <input type="checkbox" name="prefer" value="anniversaries">Anniversaries
-                    </label>
-                    <label>
-                        <input type="checkbox" name="prefer" value="festive">Festive Occasion
-                    </label>
-                    <label>
-                        <input type="checkbox" name="prefer" value="weekend-holidays">Weekends/Holidays
-                    </label>
-                    <label>
-                        <input type="checkbox" name="prefer" value="anytime">Anytime
-                    </label>
-                </div>
-                <div class="form-field">
-                    <p>Any comments or suggestions?</p>
-                    <textarea name="comment" id="comments" cols="30" rows="10" placeholder="Enter your comments here..."></textarea>
-                </div>
-                <div class="form-field">
-                    <button type="submit" id="submit">Submit</button>
-                </div>
-            </form>
-        <!-- </div> -->
+        <form id="survey-form" action="/">
+            <div class="form-field">
+                <label for="name" id="name-label">Name</label>
+                <input type="text" name="name" id="name" placeholder="Enter your name" required>
+            </div>
+            <div class="form-field">
+                <label for="email" id="email-label">Email</label>
+                <input type="email" name="email" id="email" placeholder="Enter your E-mail address" required>
+            </div>
+            <div class="form-field">
+                <label for="age" id="age-label">Age <span>(optional)</span></label>
+                <input type="number" name="age" id="age" min="5" max="99" placeholder="Age">
+            </div>
+            <div class="form-field">
+                <label for="number" id="number-label">Mobile Number <span>(optional)</span></label>
+                <input type="tel" name="number" id="number" pattern="9\d{9}" placeholder="Last 10-digits of your mobile number. (Ex. 9012345678)">
+            </div>
+            <div class="form-field">
+                <label for="tel-number" id="number-label-tel">Telephone Number <span>(optional)</span></label>
+                <input type="tel" name="tel-number" id="tel-number" pattern="\d{8,10}" placeholder="Telephone number. (Ex. 0821234567)">
+            </div>
+            <div class="form-field">
+                <label for="dropdown">Occupation</label>
+                <select name="occupation" id="dropdown" required>
+                    <option disabled selected value>Select your current occupation</option>
+                    <option value="student">Student</option>
+                    <option value="employed">Employed</option>
+                    <option value="unemployed">Unemployed</option>
+                    <option value="preferNo">Prefer not to say</option>
+                    <option value="other">Other</option>
+                </select>
+            </div>
+            <div class="form-field">
+                <p>Would you recommend our cakes to a friend?</p>
+                <label for="absolutely">
+                    <input type="radio" id="absolutely" name="user-recommend" value="absolutely" checked>Absolutely
+                </label>
+                <label>
+                    <input type="radio" name="user-recommend" value="maybe">Maybe
+                </label>
+                <label>
+                    <input type="radio" name="user-recommend" value="not-sure">Not sure
+                </label>
+                <label>
+                    <input type="radio" name="user-recommend" value="nope">Nope
+                </label>
+            </div>
+            <div class="form-field">
+                <p>When do you buy cakes? <span>(Check all that apply)</span></p>
+                <label>
+                    <input type="checkbox" name="prefer" value="bdays">Birthdays
+                </label>
+                <label>
+                    <input type="checkbox" name="prefer" value="parties">Parties
+                </label>
+                <label>
+                    <input type="checkbox" name="prefer" value="anniversaries">Anniversaries
+                </label>
+                <label>
+                    <input type="checkbox" name="prefer" value="festive">Festive Occasion
+                </label>
+                <label>
+                    <input type="checkbox" name="prefer" value="weekend-holidays">Weekends/Holidays
+                </label>
+                <label>
+                    <input type="checkbox" name="prefer" value="anytime">Anytime
+                </label>
+            </div>
+            <div class="form-field">
+                <p>Any comments or suggestions?</p>
+                <textarea name="comment" id="comments" cols="30" rows="10" placeholder="Enter your comments here..."></textarea>
+            </div>
+            <div class="form-field">
+                <button type="submit" id="submit">Submit</button>
+            </div>
+        </form>
     </main>
 </body>
 </html>
