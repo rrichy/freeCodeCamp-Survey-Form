@@ -13,6 +13,7 @@ span {
 
 textarea {
     max-width: 100%;
+    resize: vertical;
 }
 
 input, select {
@@ -25,7 +26,6 @@ input, select {
 
 input[type="radio"], input[type="checkbox"] {
     margin: 0px 5px;
-    align-;
 }
 
 button {
